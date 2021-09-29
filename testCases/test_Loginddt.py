@@ -59,7 +59,7 @@ class Test_002_DDT_Login:
             self.driver.close()
             assert True
         else:
-            self.logger.info("******Login DDT test failed******")
+            self.logger.info("******Login DDT test fail******")
             self.driver.close()
             assert False
 
